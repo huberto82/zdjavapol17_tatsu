@@ -18,14 +18,14 @@
 - (x) shouldReturnSecondGroupOfColors
 
 ## PersonDtoTest
-- (.) shouldReturnEmptyObject
-- (.) shouldReturnPerson
+- (x) shouldReturnEmptyObject
+- (x) shouldReturnPerson
 
 ## PersonMapperTest
-- (.) shouldReturnNull
-- (.) shouldReturnDto
-- (.) shouldReturnEmptyList
-- (.) shouldReturnList
+- (x) shouldReturnNull
+- (x) shouldReturnDto
+- (x) shouldReturnEmptyList
+- (x) shouldReturnList
 - (.) shouldReturnSet
 
 ## BookTypesTest
