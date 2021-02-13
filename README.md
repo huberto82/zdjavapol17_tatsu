@@ -4,13 +4,13 @@
 - (x) shouldReturnSum
 
 ## StringTatsuUtilsTest
-- (.) shouldReturnTrueWhenProductionIsOn
-- (.) shouldReturnFalseWhenDevIsOff
-- (.) shouldReturnTrueWhenStringIsBlank
-- (.) shouldReturnFalseWhenStringIsNotBlank
-- (.) shouldReturnFalseWhenEmailIsNotValid
-- (.) shouldReturnTrueWhenEmailIsValid
-- (.) shouldReturnFullName
+- (x) shouldReturnTrueWhenProductionIsOn
+- (x) shouldReturnFalseWhenDevIsOff
+- (x) shouldReturnTrueWhenStringIsBlank
+- (x) shouldReturnFalseWhenStringIsNotBlank
+- (x) shouldReturnFalseWhenEmailIsNotValid
+- (x) shouldReturnTrueWhenEmailIsValid
+- (x) shouldReturnFullName
 
 ## CollectionTatsuUtilsTest
 - (.) shouldReturnEmptyListWhenTypeIsNotValid

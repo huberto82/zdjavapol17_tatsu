@@ -16,8 +16,12 @@ public class StringTatsuUtils {
 		return value == null || value.trim().equalsIgnoreCase("");
 	}
 
+	public static boolean isNotBlank(String str) {
+		return !isBlank(str);
+	}
+
 	public static boolean isEmail(String email) {
-		if(isBlank(email)) {
+		if (isBlank(email)) {
 			return false;
 		}
 		return Pattern.compile(
