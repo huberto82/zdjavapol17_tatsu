@@ -49,19 +49,19 @@
 - (x) shouldReturnList
 
 ## HomeControllerTest
-- (.) shouldReturnController
+- (x) shouldReturnController
 
 ## HomeControllerTest2
-- (.) shouldReturnHelloWorld
-- (.) shouldReturnGoAway
+- (x) shouldReturnHelloWorld
+- (x) shouldReturnGoAway
 
 ## PersonRestControllerTest
-- (.) shouldReturnController
+- (/) shouldReturnController
 
 ## PersonRestControllerTest2
-- (.) shouldReturnPerson
-- (.) shouldReturnListOfPersons
+- (x) shouldReturnPerson
+- (x) shouldReturnListOfPersons
 
 ## BooksControllerTest
-- (.) shouldReturnPerson
-- (.) shouldReturnPersons
+- (/) shouldReturnPerson
+- (/) shouldReturnPersons
