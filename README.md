@@ -26,27 +26,27 @@
 - (x) shouldReturnDto
 - (x) shouldReturnEmptyList
 - (x) shouldReturnList
-- (.) shouldReturnSet
+- (x) shouldReturnSet
 
 ## BookTypesTest
-- (.) shouldReturnDefaultEnumInCaseOfNullOrInvalidValue
-- (.) shouldReturnEnumByString
-- (.) shouldReturnEnumByStringAndIgnoreCase
+- (x) shouldReturnDefaultEnumInCaseOfNullOrInvalidValue
+- (x) shouldReturnEnumByString
+- (x) shouldReturnEnumByStringAndIgnoreCase
 
 ## BookServiceTest
-- (.) shouldCallGetOneWhenIdIsValid
-- (.) shouldNotCallGetOneWhenIdIsValid
-- (.) shouldCallFindAll
-- (.) shouldCallSaveAndFlash
-- (.) shouldNotCallSaveAndFlashWhenObjectIsEqualToNull
-- (.) shouldCallDeleteById
-- (.) shouldSaveAndFlashInCaseOfUpdate
+- (x) shouldCallGetOneWhenIdIsValid
+- (x) shouldNotCallGetOneWhenIdIsValid
+- (x) shouldCallFindAll
+- (x) shouldCallSaveAndFlash
+- (x) shouldNotCallSaveAndFlashWhenObjectIsEqualToNull
+- (/) shouldCallDeleteById
+- (/) shouldSaveAndFlashInCaseOfUpdate
 
 ## BookDtoServiceTest
-- (.) shouldNotReturnBook
-- (.) shouldReturnBook
-- (.) shouldReturnEmptyList
-- (.) shouldReturnList
+- (x) shouldNotReturnBook
+- (x) shouldReturnBook
+- (x) shouldReturnEmptyList
+- (x) shouldReturnList
 
 ## HomeControllerTest
 - (.) shouldReturnController
