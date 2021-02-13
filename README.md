@@ -1,7 +1,7 @@
 ## NumberTatsuUtilsTest
-- (.) shouldReturnTrue
-- (.) shouldReturnFalse
-- (.) shouldReturnSum
+- (x) shouldReturnTrue
+- (x) shouldReturnFalse
+- (x) shouldReturnSum
 
 ## StringTatsuUtilsTest
 - (.) shouldReturnTrueWhenProductionIsOn
