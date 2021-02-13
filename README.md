@@ -13,9 +13,9 @@
 - (x) shouldReturnFullName
 
 ## CollectionTatsuUtilsTest
-- (.) shouldReturnEmptyListWhenTypeIsNotValid
-- (.) shouldReturnFirstGroupOfColors
-- (.) shouldReturnSecondGroupOfColors
+- (x) shouldReturnEmptyListWhenTypeIsNotValid
+- (x) shouldReturnFirstGroupOfColors
+- (x) shouldReturnSecondGroupOfColors
 
 ## PersonDtoTest
 - (.) shouldReturnEmptyObject
